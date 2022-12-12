@@ -5,8 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learn RegEx</title>
+
+    <!-- Custom style sheet -->
+    <link rel="stylesheet" href="./assets//styles/index.css" />
   </head>
   <body>
-    <h1>Hello Regex!</h1>
+    <form action="" id="registerForm">
+      <h1>Create a new account</h1>
+      <div class="form_group">
+        <input type="text" name="name" placeholder="Name" autocomplete="off" />
+        <label for="name"
+          >Username must be a and contain 5 - 12 characters</label
+        >
+      </div>
+      <div class="form_group">
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          autocomplete="off"
+        />
+        <label for="email"
+          >Email must be a valid address, eg:me@mydomain.com</label
+        >
+      </div>
+      <div class="form_group">
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          autocomplete="off"
+        />
+        <label for="password"
+          >Password must alphanumerice(@, _ and - are allowed) and be 8 - 20
+          characters</label
+        >
+      </div>
+      <div class="form_group">
+        <input
+          type="tel"
+          name="telephone"
+          placeholder="Telephone"
+          autocomplete="off"
+        />
+        <label for="telephone"
+          >Telephone must be a valid IN telephone number (11 digits)</label
+        >
+      </div>
+      <div class="form_group">
+        <input
+          type="text"
+          name="slug"
+          placeholder="Profile Slug"
+          autocomplete="off"
+        />
+        <label for="slug"
+          >Slug must contain only lowercase letters, number and hypens and be 8
+          - 20 characters</label
+        >
+      </div>
+    </form>
+
+    <!-- Javascript -->
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>
