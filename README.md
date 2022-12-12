@@ -1,5 +1,6 @@
 # Something about Regex :worried:
 
-_Small story 📖_
+_Small note 📝_
 
-The diffcult topic to me, I don't know about you. While i learning python in my college days, i usually avoid this topic 😅. Now it's time to learn it.
+I usually avoided this topic when I was learning Python in college 😅.
+It is now time to learn it 📖.
