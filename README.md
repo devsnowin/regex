@@ -10,7 +10,5 @@ It is now time to learn it 📖.
 It's a series of characters that allow us to check for matches.
 Eg: E-mail validation in forms
 
-RegEx looks like this 👇
-`js
-^[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*@[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*$
-`
+RegEx looks like this:
+`^[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*@[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*$`
