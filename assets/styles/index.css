@@ -16,6 +16,10 @@ body {
   text-align: center;
 }
 
+.error_msg {
+  color: rgb(245, 46, 46) !important;
+}
+
 #registerForm {
   width: 100%;
   max-width: 26rem;
